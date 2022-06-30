@@ -1,0 +1,575 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 16196 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/gusta/OneDrive/Área de Trabalho/LookAway_FoxTales-master
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60090
+Successfully changed project path to: C:/Users/gusta/OneDrive/Área de Trabalho/LookAway_FoxTales-master
+C:/Users/gusta/OneDrive/Área de Trabalho/LookAway_FoxTales-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 130.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gusta/OneDrive/Área de Trabalho/LookAway_FoxTales-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.6231
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012426 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 101.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (688ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 113.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.820 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1821ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1591ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1094ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (604ms)
+				ProcessInitializeOnLoadMethodAttributes (171ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 244 unused Assets / (1.7 MB). Loaded Objects now: 5452.
+Memory consumption went from 250.7 MB to 248.9 MB.
+Total: 8.505400 ms (FindLiveObjects: 0.830900 ms CreateObjectMapping: 0.545700 ms MarkObjects: 6.526500 ms  DeleteObjects: 0.601000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 922299.031783 seconds.
+  path: Assets/DwarfCity/GlobalVolumeProfile.asset
+  artifactKey: Guid(26860b95764b09543a107f0a5068329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DwarfCity/GlobalVolumeProfile.asset using Guid(26860b95764b09543a107f0a5068329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6c1f4ac4d5d2e196c347fe23eadde6') in 0.046717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.468367 seconds.
+  path: Assets/DwarfCity.unity
+  artifactKey: Guid(d766ed5a8d2b43f47bb2990f0124236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DwarfCity.unity using Guid(d766ed5a8d2b43f47bb2990f0124236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892ccf42b84b626a6147246ca8bb4bad') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.226739 seconds.
+  path: Assets/Assets FoxTales/Midgard
+  artifactKey: Guid(9134b96f1b3ae474584ac32646a278fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Midgard using Guid(9134b96f1b3ae474584ac32646a278fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cc1824d8cc6c9774cc1a0a8219314b') in 0.006483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.113232 seconds.
+  path: Assets/Assets FoxTales/Dwarf
+  artifactKey: Guid(7fc2baf0d380a534bbf25a1328194d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf using Guid(7fc2baf0d380a534bbf25a1328194d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a632bc176d2969f44f75bd33d7a8b3') in 0.007126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1905.788601 seconds.
+  path: Assets/Assets FoxTales/Dwarf/caverna.fbx
+  artifactKey: Guid(e2f232ebe8f9959489af88f86157e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/caverna.fbx using Guid(e2f232ebe8f9959489af88f86157e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c960cc0d9e286cf2767d1ef032630955') in 0.321964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.930171 seconds.
+  path: Assets/Assets FoxTales/Dwarf/trilhos.fbx
+  artifactKey: Guid(e5a57689e6ca43442a3ae75627e9981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/trilhos.fbx using Guid(e5a57689e6ca43442a3ae75627e9981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c922e11def317ab09ae39d177ce672a9') in 0.052824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.996134 seconds.
+  path: Assets/Assets FoxTales/Dwarf/Tocha.fbx
+  artifactKey: Guid(88647b278e5f37648aa2b0b4fa100806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/Tocha.fbx using Guid(88647b278e5f37648aa2b0b4fa100806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f97875864a4c379d19488756dde9f87') in 0.059610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.387440 seconds.
+  path: Assets/Assets FoxTales/Dwarf/ferramentas.fbx
+  artifactKey: Guid(919b24d7a1291e54aae1c349fdbf0a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/ferramentas.fbx using Guid(919b24d7a1291e54aae1c349fdbf0a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddff3a4f5565a3973dccb8affc007fbb') in 0.081909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.847501 seconds.
+  path: Assets/Assets FoxTales/Dwarf/caverna 1.fbx
+  artifactKey: Guid(cdc80fc1de3a5c245973dac7fdc78eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/caverna 1.fbx using Guid(cdc80fc1de3a5c245973dac7fdc78eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688d35eae63a660a00e39e7a2003222a') in 0.037192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.485094 seconds.
+  path: Assets/Assets FoxTales/Dwarf/Carrinho.fbx
+  artifactKey: Guid(ffebf19b2be450b43a909df8ee43bcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/Carrinho.fbx using Guid(ffebf19b2be450b43a909df8ee43bcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1f5b9218068deccf572e6914009ec0') in 0.100999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 442.779287 seconds.
+  path: Assets/Assets FoxTales/Dwarf/casaAnao.fbx
+  artifactKey: Guid(82dbf38aa4867484a9118bc85a8411ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/casaAnao.fbx using Guid(82dbf38aa4867484a9118bc85a8411ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8580e98265b9692915e3e64ab3b5739') in 0.037107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 304.347094 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material
+  artifactKey: Guid(abb4993f83b0a764eb66ad3dcb4db2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material using Guid(abb4993f83b0a764eb66ad3dcb4db2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7171de6bdb1002330532bcba93d86fc1') in 0.006900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.917408 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Casa anao.mat
+  artifactKey: Guid(e6df6e8414c14ec45af6fce27023a72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Casa anao.mat using Guid(e6df6e8414c14ec45af6fce27023a72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235807477a8872f522a261a5b2802168') in 0.027786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.762146 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/textCasAnao.png
+  artifactKey: Guid(ba05be5a35b5e1a45a7bb3c0cd16d553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/textCasAnao.png using Guid(ba05be5a35b5e1a45a7bb3c0cd16d553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c882805274d148092ab841a7ef57301') in 0.038371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 399.766724 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Casa anao.mat
+  artifactKey: Guid(e6df6e8414c14ec45af6fce27023a72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Casa anao.mat using Guid(e6df6e8414c14ec45af6fce27023a72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381e46d34aeaa6f2f9b840a2fec88339') in 0.022893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.731368 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/MetalShader.shadergraph
+  artifactKey: Guid(684ae2b034bf67842806d5733ef8b10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/MetalShader.shadergraph using Guid(684ae2b034bf67842806d5733ef8b10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190f3698842421d84e62ccc6f038f94b') in 0.009455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.160553 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Vol_18_2_Base_Color.png
+  artifactKey: Guid(4bddb307a6f7c7e42851d8f7d6347c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Vol_18_2_Base_Color.png using Guid(4bddb307a6f7c7e42851d8f7d6347c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22176457d1d79acb4f34e00569ad682') in 0.020400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.015195 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Vol_18_2_Normal.png
+  artifactKey: Guid(f7c902b8e2bfabe4f890968bf1828e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Vol_18_2_Normal.png using Guid(f7c902b8e2bfabe4f890968bf1828e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2434e60fabd577f83f25c1b6df8b79b') in 0.016989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.295845 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Vol_18_2_Roughness.png
+  artifactKey: Guid(ab2feef20de560240b9bfbfaa0db7f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Vol_18_2_Roughness.png using Guid(ab2feef20de560240b9bfbfaa0db7f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ae797b483c1562ebc1e5e7d121fd37') in 0.022870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.798106 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Vol_18_2_Ambient_Occlusion.png
+  artifactKey: Guid(c8da64cfe65b97d47b6b0ded70e98940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Vol_18_2_Ambient_Occlusion.png using Guid(c8da64cfe65b97d47b6b0ded70e98940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14947b472f0d0180d81d13d955d8b584') in 0.020868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.437007 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/MadeiraShader.shadergraph
+  artifactKey: Guid(06ded010dacdbf149bdaf982c53b6f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/MadeiraShader.shadergraph using Guid(06ded010dacdbf149bdaf982c53b6f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae35ed3ce53b62763b98e039ac2328e') in 0.008358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.418697 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Madeira.mat
+  artifactKey: Guid(6cf781d7968bde043be07799190bb638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Madeira.mat using Guid(6cf781d7968bde043be07799190bb638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab97c9dc5d81eda7dd8810e0a6e4f37') in 0.020994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.861565 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Stylized_Bark_001_COLOR.jpg
+  artifactKey: Guid(940cc9fb5c5765d449fe0e3a94a7824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Stylized_Bark_001_COLOR.jpg using Guid(940cc9fb5c5765d449fe0e3a94a7824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1b0ed46a5473a7e1073ba83a5ffb74') in 0.018950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.316189 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Stylized_Bark_001_NORM.jpg
+  artifactKey: Guid(eb77cf02204e89e4abb7d7af4f4a749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Stylized_Bark_001_NORM.jpg using Guid(eb77cf02204e89e4abb7d7af4f4a749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddfbb6cf8ae0d656e34e1ae6c86a838') in 0.026673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.346925 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Stylized_Bark_001_DISP.png
+  artifactKey: Guid(7dfb3b2d2e36d0240875acf50f3a6dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Stylized_Bark_001_DISP.png using Guid(7dfb3b2d2e36d0240875acf50f3a6dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd19544c0dd7699421f402436eb628c') in 0.018384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.253511 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Madeira.mat
+  artifactKey: Guid(6cf781d7968bde043be07799190bb638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Madeira.mat using Guid(6cf781d7968bde043be07799190bb638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c495bcf66954bdf26bf4b02820945d7') in 1.784299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.096671 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Stone Wall.shadergraph
+  artifactKey: Guid(c1cc25e9f9d311d4782b2d1e74f3ed72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Stone Wall.shadergraph using Guid(c1cc25e9f9d311d4782b2d1e74f3ed72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdf3dcf00104b526396ff0923573096') in 0.004146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.904282 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Wall_Stone_015_ambientOcclusion.jpg
+  artifactKey: Guid(e29436386b3845f4a86e2e8f7ec4ced4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Wall_Stone_015_ambientOcclusion.jpg using Guid(e29436386b3845f4a86e2e8f7ec4ced4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792957d359fb21aff7c2e753b2bc7b53') in 0.016127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.942509 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Wall_Stone_015_normal.jpg
+  artifactKey: Guid(2ab6b69070f4cf8438c79e1f1893de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Wall_Stone_015_normal.jpg using Guid(2ab6b69070f4cf8438c79e1f1893de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a12ffeb2900fdf63d835f498a787ef') in 0.017994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.303290 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/NewBehaviourScript.cs
+  artifactKey: Guid(439f28a353b53c64f93a210c569e2613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/NewBehaviourScript.cs using Guid(439f28a353b53c64f93a210c569e2613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b7f941749c9ec67b6f2c988cd81594') in 0.008689 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012159 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.693 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1694ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (1241ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (651ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (183ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4778 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (1.7 MB). Loaded Objects now: 5556.
+Memory consumption went from 235.8 MB to 234.1 MB.
+Total: 10.400200 ms (FindLiveObjects: 0.388100 ms CreateObjectMapping: 0.332000 ms MarkObjects: 9.122600 ms  DeleteObjects: 0.556400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55.464208 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/StoneFlor.shadergraph
+  artifactKey: Guid(51b33b9c8d4ff594c9d071791e9d9368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/StoneFlor.shadergraph using Guid(51b33b9c8d4ff594c9d071791e9d9368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7d0805c15226bc0de1716777778ca9') in 0.086565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.175546 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/StoneFloor.shadergraph
+  artifactKey: Guid(51b33b9c8d4ff594c9d071791e9d9368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/StoneFloor.shadergraph using Guid(51b33b9c8d4ff594c9d071791e9d9368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92789241b7a7ebc88536c5e2f10d1207') in 0.009650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.232578 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/New Material.mat
+  artifactKey: Guid(2cd2fb78aa8fd6a46a6faf8dec14a85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/New Material.mat using Guid(2cd2fb78aa8fd6a46a6faf8dec14a85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7ef567ab600ebc16767a54c26b8e8a') in 0.249546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 316.609534 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Stone Wall.shadergraph
+  artifactKey: Guid(c1cc25e9f9d311d4782b2d1e74f3ed72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Stone Wall.shadergraph using Guid(c1cc25e9f9d311d4782b2d1e74f3ed72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456bf54c0141f8114a87539141ee6553') in 0.005052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.769579 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Stylized_Stone_Floor_005_ambientOcclusion.jpg
+  artifactKey: Guid(468306fef489f524c86d924f12d2cc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Stylized_Stone_Floor_005_ambientOcclusion.jpg using Guid(468306fef489f524c86d924f12d2cc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3ad1e415bb60d986f81fc71f855c00') in 0.030047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.006930 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Stylized_Stone_Floor_005_normal.jpg
+  artifactKey: Guid(945488766cac48b48a9561969fefff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Stylized_Stone_Floor_005_normal.jpg using Guid(945488766cac48b48a9561969fefff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af060198105c6af914b8310a08451eac') in 0.020446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.707664 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/New Material.mat
+  artifactKey: Guid(2cd2fb78aa8fd6a46a6faf8dec14a85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/New Material.mat using Guid(2cd2fb78aa8fd6a46a6faf8dec14a85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c3777d60e4fa362e1b3dde4e22621c') in 1.800727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 708.136807 seconds.
+  path: Assets/Assets FoxTales/Dwarf/caverna1.fbx
+  artifactKey: Guid(bdb241943ec0b034e8c05a2fa2e36099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/caverna1.fbx using Guid(bdb241943ec0b034e8c05a2fa2e36099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc056adafbc7b322c99dc53567915f21') in 0.089904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.653698 seconds.
+  path: Assets/Assets FoxTales/Dwarf/caverna1.fbx
+  artifactKey: Guid(bdb241943ec0b034e8c05a2fa2e36099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/caverna1.fbx using Guid(bdb241943ec0b034e8c05a2fa2e36099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd3460199e3ee9d04f17130ba366eea') in 0.054851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 325.514850 seconds.
+  path: Assets/Assets FoxTales/Dwarf/caverna1 (1).fbx
+  artifactKey: Guid(0f14b7f27177afc45b8c0a62b9b7df66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/caverna1 (1).fbx using Guid(0f14b7f27177afc45b8c0a62b9b7df66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4194f430b1ced90e9aa6d95e186c9d') in 0.091933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.395393 seconds.
+  path: Assets/Assets FoxTales/Dwarf/cav.fbx
+  artifactKey: Guid(b07fa97a7ebc2384d976812fc94cb2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/cav.fbx using Guid(b07fa97a7ebc2384d976812fc94cb2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6cb5c36d69f4bfd282043a0ee463cb') in 0.050780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 723.649758 seconds.
+  path: Assets/Assets FoxTales/Dwarf/paredeCAV.fbx
+  artifactKey: Guid(3371bf699b4827a42aa59dd20f42f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/paredeCAV.fbx using Guid(3371bf699b4827a42aa59dd20f42f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866691c927e2c25a5c6403f28a921461') in 0.051043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 158.570040 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/New Material.mat
+  artifactKey: Guid(2cd2fb78aa8fd6a46a6faf8dec14a85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/New Material.mat using Guid(2cd2fb78aa8fd6a46a6faf8dec14a85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b95da7f69be5342d9f8dbb60dc3dc2') in 0.027196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 159.249236 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Materials
+  artifactKey: Guid(e2061590e2efa8f478662c4036bf6b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Materials using Guid(e2061590e2efa8f478662c4036bf6b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880c099714dc7b24995c52d38cfb6aec') in 0.006585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041592 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Materials/Wall_Stone_015_basecolor.mat
+  artifactKey: Guid(edf0ca2c261e0ba4b95d18f4cfe0e3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Materials/Wall_Stone_015_basecolor.mat using Guid(edf0ca2c261e0ba4b95d18f4cfe0e3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb6469ad38b23c51067555c4ca26a7e') in 0.016175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14214.791625 seconds.
+  path: Assets/DwarfCity/Volume.png
+  artifactKey: Guid(c2ea49f0ad3172e44ab1e9e3c3ab691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DwarfCity/Volume.png using Guid(c2ea49f0ad3172e44ab1e9e3c3ab691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c8dec25e4c90cbdb5ca67b55a6ffe3') in 0.251585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.363412 seconds.
+  path: Assets/DwarfCity.unity
+  artifactKey: Guid(d766ed5a8d2b43f47bb2990f0124236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DwarfCity.unity using Guid(d766ed5a8d2b43f47bb2990f0124236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d394935bf2b54305b56f5bdfa440d0') in 0.009359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4972.433180 seconds.
+  path: Assets/Assets FoxTales/Dwarf/casaANAOZAO.fbx
+  artifactKey: Guid(42788599f0009e842a57abd2bf9f2b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/casaANAOZAO.fbx using Guid(42788599f0009e842a57abd2bf9f2b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b515a2935363c9eb8837fc2463037a') in 0.313530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.434178 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/CasaAnao.shadergraph
+  artifactKey: Guid(a75d500269d39454db76ea4fce2baeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/CasaAnao.shadergraph using Guid(a75d500269d39454db76ea4fce2baeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fd914f74086dcb0102030f195ca3bf') in 0.047812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.347636 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/MetalShader.shadergraph
+  artifactKey: Guid(684ae2b034bf67842806d5733ef8b10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/MetalShader.shadergraph using Guid(684ae2b034bf67842806d5733ef8b10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7018254c349842ca92547027b78c53') in 0.011186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.297359 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/CasaAnao2.shadergraph
+  artifactKey: Guid(a75d500269d39454db76ea4fce2baeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/CasaAnao2.shadergraph using Guid(a75d500269d39454db76ea4fce2baeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffadaadd1dcf77be5af83eb9bb927f6') in 0.009105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.058571 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Casa Anao 2.mat
+  artifactKey: Guid(de7095fb7232b4f4cbd467fb37573b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Casa Anao 2.mat using Guid(de7095fb7232b4f4cbd467fb37573b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb6ba340bc1998d719c62eda84f0ed6') in 0.027562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.012672 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/casaANAOZAO_low_DefaultMaterial_Metallic.png
+  artifactKey: Guid(e9ec9c983e5eba349bc6ef22b26a0650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/casaANAOZAO_low_DefaultMaterial_Metallic.png using Guid(e9ec9c983e5eba349bc6ef22b26a0650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b44633d90c156ca8f99c8b3d1d6f3f') in 0.463678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/casaANAOZAO_low_DefaultMaterial_Roughness.png
+  artifactKey: Guid(cea15565bd37ac049a41dc3bfeeca8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/casaANAOZAO_low_DefaultMaterial_Roughness.png using Guid(cea15565bd37ac049a41dc3bfeeca8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143f2b9327608895a4949c7e38212ae7') in 0.025937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.273080 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/casaANAOZAO_low_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(99e89464930ca124eb1f7c170dabcb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/casaANAOZAO_low_DefaultMaterial_BaseColor.png using Guid(99e89464930ca124eb1f7c170dabcb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fef48f6525a313014305f8b5d97334') in 0.018401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 237.069246 seconds.
+  path: Assets/Assets FoxTales/Dwarf/material/Casa Anao 2.mat
+  artifactKey: Guid(de7095fb7232b4f4cbd467fb37573b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/material/Casa Anao 2.mat using Guid(de7095fb7232b4f4cbd467fb37573b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccb43b1447ba1ec5300a602712a4574') in 2.429867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2544.338600 seconds.
+  path: Assets/Assets FoxTales/Dwarf/picareta.prefab
+  artifactKey: Guid(2fa6e9f8e41ca3a4e8b507bec3192849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/picareta.prefab using Guid(2fa6e9f8e41ca3a4e8b507bec3192849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a19ffa29ebeff2848d1b3ebc3e0dc3') in 0.118123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 370.727700 seconds.
+  path: Assets/Assets FoxTales/Dwarf/martelo.prefab
+  artifactKey: Guid(aa8e0e5e1ffd18845837d3168e91a6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets FoxTales/Dwarf/martelo.prefab using Guid(aa8e0e5e1ffd18845837d3168e91a6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08d13facb5cf4d335b1cf55a9718bb3') in 0.032316 seconds 
