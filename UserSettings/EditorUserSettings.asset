@@ -5,6 +5,21 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+<<<<<<< Updated upstream
+=======
+    RecentlyUsedSceneGuid-0:
+      value: 53040d04070d5e0f59595a2140760b44154f19292f7974602b2b4c35bab46768
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 0102505254075f5f5d5b542413725e4441164c2e2a7c7e657d7b1c65e3b66d6a
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 0706025000515c5a550a5e204470594441151a78757176367d784f67b0b3623c
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5157050355075a580c5e5e7614215e44451540797c2a23357f7f1931b4e3633b
+      flags: 0
+>>>>>>> Stashed changes
     RecentlyUsedScenePath-0:
       value: 22424703114646680e0b0227036c7c1912161c2f0b2d2a3f633c133af6f9
       flags: 0

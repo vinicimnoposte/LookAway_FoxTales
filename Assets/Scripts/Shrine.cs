@@ -26,4 +26,8 @@ public class Shrine : MonoBehaviour
             SceneManager.LoadScene(ShrineName);
         }
     }
+    public void Joga()
+    {
+        SceneManager.LoadScene("Land");
+    }
 }
