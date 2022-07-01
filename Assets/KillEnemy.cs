@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class KillEnemy : MonoBehaviour
 {
+<<<<<<< Updated upstream
     // Start is called before the first frame update
     void Start()
     {
@@ -15,13 +16,21 @@ public class KillEnemy : MonoBehaviour
     {
         
     }
+=======
+>>>>>>> Stashed changes
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Enemy")
         {
+<<<<<<< Updated upstream
             other.gameObject.GetComponent<IADamage>().lives = -1;
         }
         
     }
 
+=======
+            other.GetComponent<IADamage>().lives = -1;
+        }
+    }
+>>>>>>> Stashed changes
 }
